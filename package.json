@@ -1,0 +1,22 @@
+{
+  "name": "starter-kit",
+  "version": "1.0.0",
+  "description": "Node, Vue.js (and router) starter kit for Efrei students",
+  "main": "server/index.js",
+  "author": "Laurent Cazanove",
+  "license": "MIT",
+  "scripts": {
+    "dev": "",
+    "start": "node server/index.js",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.5.1",
+    "twilio": "^3.65.0"
+  },
+  "devDependencies": {}
+}
